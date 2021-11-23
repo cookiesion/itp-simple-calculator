@@ -7,7 +7,7 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    if y = 0:
+    if y == 0:
         return "No dividing by zero!"
     return x / y
 
@@ -17,15 +17,15 @@ def multiply(x, y):
 
 
 def square(x):
-    return x ^2
+    return x ** 2
 
 
 def power(x, y):
-    return x^y
+    return x ** y
 
 
 def sqrt(x):
-    return sqrt(x)
+    return power(x)
 
 # For the add() function
 py.test test_add.py
